@@ -15,9 +15,10 @@
 		118480711EB8749100590AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1184806F1EB8749100590AD3 /* LaunchScreen.storyboard */; };
 		1184807C1EB8749200590AD3 /* BastTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1184807B1EB8749200590AD3 /* BastTemplateTests.m */; };
 		118480871EB8749200590AD3 /* BastTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 118480861EB8749200590AD3 /* BastTemplateUITests.m */; };
-		118480991EB87D5D00590AD3 /* BastSysTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118480981EB87D5D00590AD3 /* BastSysTabBarController.m */; };
-		1184809C1EB87D7A00590AD3 /* BastCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1184809B1EB87D7A00590AD3 /* BastCustomTabBarController.m */; };
-		1184809F1EB87D9900590AD3 /* BastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1184809E1EB87D9900590AD3 /* BastViewController.m */; };
+		118480AB1EB8875C00590AD3 /* BastCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118480A51EB8875C00590AD3 /* BastCustomTabBarController.m */; };
+		118480AC1EB8875C00590AD3 /* BastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118480A71EB8875C00590AD3 /* BastViewController.m */; };
+		118480AD1EB8875C00590AD3 /* BastSysTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118480AA1EB8875C00590AD3 /* BastSysTabBarController.m */; };
+		118480B51EB887B600590AD3 /* BastNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118480B31EB887B600590AD3 /* BastNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +55,14 @@
 		118480821EB8749200590AD3 /* BastTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BastTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		118480861EB8749200590AD3 /* BastTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BastTemplateUITests.m; sourceTree = "<group>"; };
 		118480881EB8749200590AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		118480971EB87D5D00590AD3 /* BastSysTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BastSysTabBarController.h; sourceTree = "<group>"; };
-		118480981EB87D5D00590AD3 /* BastSysTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BastSysTabBarController.m; sourceTree = "<group>"; };
-		1184809A1EB87D7A00590AD3 /* BastCustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BastCustomTabBarController.h; sourceTree = "<group>"; };
-		1184809B1EB87D7A00590AD3 /* BastCustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BastCustomTabBarController.m; sourceTree = "<group>"; };
-		1184809D1EB87D9900590AD3 /* BastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BastViewController.h; sourceTree = "<group>"; };
-		1184809E1EB87D9900590AD3 /* BastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BastViewController.m; sourceTree = "<group>"; };
+		118480A41EB8875C00590AD3 /* BastCustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BastCustomTabBarController.h; sourceTree = "<group>"; };
+		118480A51EB8875C00590AD3 /* BastCustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BastCustomTabBarController.m; sourceTree = "<group>"; };
+		118480A61EB8875C00590AD3 /* BastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BastViewController.h; sourceTree = "<group>"; };
+		118480A71EB8875C00590AD3 /* BastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BastViewController.m; sourceTree = "<group>"; };
+		118480A91EB8875C00590AD3 /* BastSysTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BastSysTabBarController.h; sourceTree = "<group>"; };
+		118480AA1EB8875C00590AD3 /* BastSysTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BastSysTabBarController.m; sourceTree = "<group>"; };
+		118480B21EB887B600590AD3 /* BastNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BastNavigationController.h; sourceTree = "<group>"; };
+		118480B31EB887B600590AD3 /* BastNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BastNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +113,7 @@
 		118480601EB8749100590AD3 /* BastTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				118480941EB874CF00590AD3 /* Tabbar */,
+				118480A01EB8875C00590AD3 /* BastCustom */,
 				118480641EB8749100590AD3 /* AppDelegate.h */,
 				118480651EB8749100590AD3 /* AppDelegate.m */,
 				118480671EB8749100590AD3 /* ViewController.h */,
@@ -150,31 +153,65 @@
 			path = BastTemplateUITests;
 			sourceTree = "<group>";
 		};
-		118480941EB874CF00590AD3 /* Tabbar */ = {
+		118480A01EB8875C00590AD3 /* BastCustom */ = {
 			isa = PBXGroup;
 			children = (
-				118480961EB87D1000590AD3 /* sys */,
-				118480951EB87D1000590AD3 /* custom */,
+				118480A11EB8875C00590AD3 /* BastNav */,
+				118480A21EB8875C00590AD3 /* BastTabbar */,
 			);
-			path = Tabbar;
+			path = BastCustom;
 			sourceTree = "<group>";
 		};
-		118480951EB87D1000590AD3 /* custom */ = {
+		118480A11EB8875C00590AD3 /* BastNav */ = {
 			isa = PBXGroup;
 			children = (
-				1184809A1EB87D7A00590AD3 /* BastCustomTabBarController.h */,
-				1184809B1EB87D7A00590AD3 /* BastCustomTabBarController.m */,
-				1184809D1EB87D9900590AD3 /* BastViewController.h */,
-				1184809E1EB87D9900590AD3 /* BastViewController.m */,
+				118480B11EB887B600590AD3 /* custom */,
+				118480B41EB887B600590AD3 /* sys */,
+			);
+			path = BastNav;
+			sourceTree = "<group>";
+		};
+		118480A21EB8875C00590AD3 /* BastTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				118480A31EB8875C00590AD3 /* custom */,
+				118480A81EB8875C00590AD3 /* sys */,
+			);
+			path = BastTabbar;
+			sourceTree = "<group>";
+		};
+		118480A31EB8875C00590AD3 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				118480A41EB8875C00590AD3 /* BastCustomTabBarController.h */,
+				118480A51EB8875C00590AD3 /* BastCustomTabBarController.m */,
+				118480A61EB8875C00590AD3 /* BastViewController.h */,
+				118480A71EB8875C00590AD3 /* BastViewController.m */,
 			);
 			path = custom;
 			sourceTree = "<group>";
 		};
-		118480961EB87D1000590AD3 /* sys */ = {
+		118480A81EB8875C00590AD3 /* sys */ = {
 			isa = PBXGroup;
 			children = (
-				118480971EB87D5D00590AD3 /* BastSysTabBarController.h */,
-				118480981EB87D5D00590AD3 /* BastSysTabBarController.m */,
+				118480A91EB8875C00590AD3 /* BastSysTabBarController.h */,
+				118480AA1EB8875C00590AD3 /* BastSysTabBarController.m */,
+			);
+			path = sys;
+			sourceTree = "<group>";
+		};
+		118480B11EB887B600590AD3 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				118480B21EB887B600590AD3 /* BastNavigationController.h */,
+				118480B31EB887B600590AD3 /* BastNavigationController.m */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		118480B41EB887B600590AD3 /* sys */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = sys;
 			sourceTree = "<group>";
@@ -315,12 +352,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118480AB1EB8875C00590AD3 /* BastCustomTabBarController.m in Sources */,
+				118480AD1EB8875C00590AD3 /* BastSysTabBarController.m in Sources */,
+				118480B51EB887B600590AD3 /* BastNavigationController.m in Sources */,
 				118480691EB8749100590AD3 /* ViewController.m in Sources */,
-				118480991EB87D5D00590AD3 /* BastSysTabBarController.m in Sources */,
 				118480661EB8749100590AD3 /* AppDelegate.m in Sources */,
-				1184809C1EB87D7A00590AD3 /* BastCustomTabBarController.m in Sources */,
-				1184809F1EB87D9900590AD3 /* BastViewController.m in Sources */,
 				118480631EB8749100590AD3 /* main.m in Sources */,
+				118480AC1EB8875C00590AD3 /* BastViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +594,7 @@
 				1184808D1EB8749200590AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1184808E1EB8749200590AD3 /* Build configuration list for PBXNativeTarget "BastTemplateTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +603,7 @@
 				118480901EB8749200590AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		118480911EB8749200590AD3 /* Build configuration list for PBXNativeTarget "BastTemplateUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +612,7 @@
 				118480931EB8749200590AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -53,6 +53,7 @@
     [listArray addObject:@"custom1 Tabbar"];
     [listArray addObject:@"custom2 Tabbar"];
     [listArray addObject:@"custom3 Tabbar"];
+
     
     [mytableViw reloadData];
 }
@@ -117,22 +118,11 @@
     if (indexPath.section == 0) {
         
         BastSysTabBarController * tabbar = [[BastSysTabBarController alloc]init];
-        BastViewController * bastVC1 = [[BastViewController alloc]init];
-        BastViewController * bastVC2 = [[BastViewController alloc]init];
-        BastViewController * bastVC3 = [[BastViewController alloc]init];
-        tabbar.viewControllers = @[bastVC1,bastVC2,bastVC3];
-        
         [self presentViewController:tabbar animated:YES completion:^{}];
-        
         
     }else if(indexPath.section == 1)
     {
         BastCustomTabBarController * tabbar = [[BastCustomTabBarController alloc]init];
-        BastViewController * bastVC1 = [[BastViewController alloc]init];
-        BastViewController * bastVC2 = [[BastViewController alloc]init];
-        BastViewController * bastVC3 = [[BastViewController alloc]init];
-        tabbar.viewControllers = @[bastVC1,bastVC2,bastVC3];
-        
         [self presentViewController:tabbar animated:YES completion:^{}];
     }
     
